@@ -131,11 +131,14 @@
           img.auto(src="@/assets/curso/tema2/clasificacion.png" width="72" height="70")
           p <strong>Evaluación del servicio y acciones correctivas</strong>
 
-    .custom-alert.container.tarjeta.tarjeta__template--verde.px-3.pt-3.pb-2.px-sm-5.my-5
-      .float-image.d-none.d-lg-block
-        img.auto(src="@/assets/curso/tema2/criterios.png")
-      .ms-lg-3.ps-lg-5
-        p.ms-lg-5 <strong>Los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas para los hoteles en las modalidades 1, 2, 3, 4 y 5.</strong>
+    .tarjeta.bg-amarillo.p-3.mb-5.my-5
+      .row.justify-content-around.align-items-center
+        .col
+          .row.justify-content-between.align-items-center
+            .col-sm-auto.px-5
+              img.auto(src="@/assets/curso/tema2/criterios.png")
+            .col.mb-3.mb-sm-0.px-5
+              .h4.mb-0 <strong>Los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas para los hoteles en las modalidades 1, 2, 3, 4 y 5.</strong>
 
     p <strong>Los criterios de evaluación.</strong>
 
@@ -173,50 +176,38 @@
     p Según la Norma sectorial colombiana NTSH006 se clasifican en:
 
     Slider#slider-tema1
-      .row
-        img.auto(src="@/assets/curso/tema2/slide-1.png")
 
-      .tarjeta.tarjeta__template--azul-claro.px-5.py-4
-          .row.align-items-center.px-lg-5
-            .col-12.col-md
-              h1 La revolución de la hotelería moderna
+      .px-5.py-4.slide-bg1
+          .row.px-lg-5
+            .col-7.py-5.px-4.bg-slide-transparent.rounded
+              p <strong>La revolución de la hotelería moderna</strong>
               p Vino con la Revolución industrial y la generalización de los medios de transporte que permitió a las personas desplazarse de forma masiva de un lugar a otro. Por aquel entonces, los viajes estaban reservados a clases más adineradas que podían salir de vacaciones y por tanto exigían alojamientos acorde a su nivel económico. Se generalizan establecimientos para comer y pernoctar, y surge así lo que conocemos como hotelería moderna.
-            .col-12.col-md-8
-              img.auto(src="@/assets/curso/tema1/slide-1.png")
 
-      .tarjeta.tarjeta__template--azul-claro.px-5.py-4
+      .px-5.py-4.slide-bg2
           .row.align-items-center.px-lg-5
-            .col-12.col-md
-              h1 La revolución de la hotelería moderna
+            .col-7.py-5.px-4.bg-slide-transparent.rounded
+              p <strong>La revolución de la hotelería moderna</strong>
               p El primer hotel de concepción moderna en 1807 fue el “Badische Hof”, construido en Alemania, comenzó con 18 columnas dóricas que se extendían a lo largo de tres pisos, lo que hizo que el comedor fuera el centro de atención y con algunos aspectos novedosos para la época como sala de lectura o biblioteca.
-            .col-12.col-md-8
-              img.auto(src="@/assets/curso/tema1/slide-2.png")
 
-      .tarjeta.tarjeta__template--azul-claro.px-5.py-4
+      .px-5.py-4.slide-bg3
           .row.align-items-center.px-lg-5
-            .col-12.col-md
-              h1 La revolución de la hotelería moderna
+            .col-7.py-5.px-4.bg-slide-transparent.rounded
+              p <strong>La revolución de la hotelería moderna</strong>
               p Con la aparición del ferrocarril, también surgen los hoteles “término” para dar alojamiento a los viajeros al lado de las estaciones.
-            .col-12.col-md-8
-              img.auto(src="@/assets/curso/tema1/slide-3.png")
 
-      .tarjeta.tarjeta__template--azul-claro.px-5.py-4
+      .px-5.py-4.slide-bg4
           .row.align-items-center.px-lg-5
-            .col-12.col-md
-              h1 La revolución de la hotelería moderna
+            .col-7.py-5.px-4.bg-slide-transparent.rounded
+              p <strong>La revolución de la hotelería moderna</strong>
               p A mediados de 1800 aparecen los hoteles de propiedad corporativa.
 
               p El famoso Ritz, y su cadena de hoteles se inauguró en 1880 y el modelo de negocio se extiende de Europa a Estados Unidos tras 1900
-            .col-12.col-md-8
-              img.auto(src="@/assets/curso/tema1/slide-4.png")
 
-      .tarjeta.tarjeta__template--azul-claro.px-5.py-4
+      .px-5.py-4.slide-bg5
           .row.align-items-center.px-lg-5
-            .col-12.col-md
-              h1 La revolución de la hotelería moderna
+            .col-7.py-5.px-4.bg-slide-transparent.rounded
+              p <strong>La revolución de la hotelería moderna</strong>
               p Francia fue el gran referente en la industria hotelera desde mediados del siglo XIX hasta que a finales del siglo XX, Estados Unidos tomó el relevo con sus grandes cadenas hoteleras y gigantes establecimientos.
-            .col-12.col-md-8
-              img.auto(src="@/assets/curso/tema1/slide-5.png")
 
 
 </template>
@@ -233,4 +224,20 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+.slide-bg1
+  background-image: url(../../assets/curso/tema2/slide-1.png)
+  background-size: cover
+.slide-bg2
+  background-image: url(../../assets/curso/tema2/slide-2.png)
+  background-size: cover
+.slide-bg3
+  background-image: url(../../assets/curso/tema2/slide-3.png)
+  background-size: cover
+.slide-bg4
+  background-image: url(../../assets/curso/tema2/slide-4.png)
+  background-size: cover
+.slide-bg5
+  background-image: url(../../assets/curso/tema2/slide-5.png)
+  background-size: cover
+</style>
