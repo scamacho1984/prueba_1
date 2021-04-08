@@ -23,7 +23,7 @@
 
         p De los siglos XV al XVIII se desarrolla un servicio de posadas no solo destinadas al alojamiento de viajeros sino también como centros de actividades, negocios o para elegir a miembros del consejo eclesiástico o del parlamento.
 
-    Slider#slider-tema5
+    Slider#slider-tema1
       .tarjeta.tarjeta__template--azul-claro.px-5.py-4
           .row.align-items-center.px-lg-5
             .col-12.col-md
