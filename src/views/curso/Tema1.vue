@@ -9,7 +9,7 @@
     figure.my-5
       img(src="@/assets/curso/tema1/video.png")
 
-    h2.h2#t_1_1 1.1 Historia de la hotelería  y evolución
+    h2.h4#t_1_1 1.1 Historia de la hotelería  y evolución
 
     p La historia de la industria hotelera se remonta a la antigüedad (años 1000 a 500 a. de C.) cuando los comerciantes viajaban de un lugar a otro para intercambiar mercancías por hospedaje.  En ese tiempo surgieron posadas en los caminos para alojar a los viajeros y a sus caballos a cambio de dinero. Eran lugares donde los huéspedes se alojaban junto al ganado y se les ofrecía un servicio de comidas.
 
@@ -17,7 +17,7 @@
       .col-12.col-md-5
         img(src="@/assets/curso/tema1/tema1.png")
       .col-12.col-md-6
-        p Después de la caída del imperio romano hasta los siglos X – XI el servicio de hospedaje pasó a manos de los monasterios, que prestaban este servicio por caridad. La hospitalidad se volvió un servicio voluntario y estaba protegido por la ley, también estaban los sitios donde se prestaba este servicio a cambio de un valor.
+        p Después de la caída del imperio romano hasta los siglos X – XI el servicio de hospedaje pasó a manos de los monasterios, que prestaban este servicio por caridad. <strong>La hospitalidad se volvió un servicio voluntario y estaba protegido por la ley</strong>, también estaban los sitios donde se prestaba este servicio a cambio de un valor.
 
         p A partir del siglo XII y XIII las cruzadas dieron un fuerte impulso al comercio y la hospitalidad dio paso a locales que comenzaron a cobrar a cambio de alojamiento.
 
@@ -66,18 +66,27 @@
             .col-12.col-md-8
               img.auto(src="@/assets/curso/tema1/slide-5.png")
 
-    .custom-alert.container.tarjeta.tarjeta__template--naranja.px-3.pt-3.pb-2.px-sm-5.my-5
-      .float-image.d-none.d-lg-block
-        img.auto(src="@/assets/curso/listo.png")
-      .ms-lg-5.ps-lg-5
-        p.ms-lg-5 <strong>La industria hotelera es hoy una de las principales y en algunos países europeos ocupa el primer puesto de la industria nacional.</strong>
+    .tarjeta.bg-naranja-claro.p-3.mb-5.my-5
+      .row.justify-content-around.align-items-center
+        .col
+          .row.justify-content-between.align-items-center
+            .col-sm-auto.px-5
+              img.auto(src="@/assets/curso/listo.png")
+            .col.mb-3.mb-sm-0.px-5
+              p.h5.strong.mb-0 <strong>La industria hotelera es hoy una de las principales y en algunos países europeos ocupa el primer puesto de la industria nacional.</strong>
 
-    h2.h2#t_1_2 1.2 Normativa de formalización
+    h2.h4#t_1_2 1.2 Normativa de formalización
 
     p <strong>Ley 300 de 1996</strong>
     p Expide la ley general de turismo. Establece que los consejos distritales o municipales, <strong>determinarán las zonas de desarrollo turístico prioritario, así mismo autoriza a las corporaciones de aquellos municipios con menos de cien mil habitantes,</strong> que posean gran valor histórico, artístico y cultural, para que establezcan un peaje turístico, sin que la tarifa supere un salario mínimo diario legal por vehículo de uso público o comercial y medio salario mínimo diario legal por vehículo de uso particular.
 
-    img.auto(src="@/assets/curso/tema1/disposiciones.png")
+    .row.p-4.contenedor-imagen
+      .col-7.py-2.px-4.bg-naranja-mas-claro
+        p Dicta disposiciones sobre el ecoturismo, etnoturismo, agroturismo, ecoturismo y turismo metropolitano; Turismo de interés social, mercadeo, promoción del turismo y cooperación turística internacional, incentivos tributarios para el fomento de la actividad turística, Fondo de promoción turística, Corporación Nacional de Turismo, Registro Nacional de Turismo, derechos y obligaciones de los usuarios, control y sanciones.
+
+        p Crea la división de policía de turismo dentro de la dirección de servicios especializados de la Policía Nacional.
+
+        p Prestadores de servicios turísticos en particular, establecimientos hoteleros o de hospedaje, agencias de viajes y de turismo, transportadores de pasajeros, establecimientos de gastronomía, bares y negocios similares, establecimientos de arrendamiento de vehículos, empresas captadoras de ahorro para viajes, guías de turismo, sistema de tiempo compartido, operadores profesionales de congresos, ferias y convenciones, círculos metropolitanos turísticos.
 
     p <strong>Ley 300 de 1996</strong>
     p El Ministerio de Comercio, Industria y Turismo reglamenta la categorización por estrellas de los establecimientos hoteleros o de hospedaje que prestan sus servicios en Colombia, disponiendo que sólo podrán ser categorizados por estrellas los establecimientos hoteleros o de hospedaje que en los términos del artículo 78 de la Ley 300 de 1996, <strong>se consideren como hoteles, según la definición de la norma técnica sectorial NTSH 006, para lo cual deben obtener el certificado de calidad turística,</strong> expedido por un organismo certificador debidamente acreditado por la Superintendencia de Industria y Comercio, que cuente con visto bueno de la Dirección de Turismo del Ministerio de Comercio, Industria y Turismo, sin cuya certificación no podrán utilizar en su publicidad la categorización por estrellas, so pena de ser sancionados.
@@ -86,7 +95,7 @@
 
     h3.h2#t_1_3 1.3 Normas técnicas sectoriales hoteleras para establecimientos de alojamiento y hospedaje.
 
-    img(src="@/assets/curso/tema1/ntsh.png")
+    img.mt-5(src="@/assets/curso/tema1/ntsh.png")
 
 </template>
 
@@ -115,20 +124,10 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-#table-header
-  margin-bottom: 5px
-  border-top-left-radius: 20px
-  border-top-right-radius: 20px
-
-  .h3
-    margin-bottom: 0
-
-#table-body
-  padding: 0 12px
-
-  .col-12:first-child
-    border-bottom-left-radius: 20px
-
-  .col-12:last-child
-    border-bottom-right-radius: 20px
+.contenedor-imagen
+  background-image: url(../../assets/curso/tema1/disposiciones.png)
+  background-size: cover
+  border-radius: 15px
+  > *
+    border-radius: 15px
 </style>
