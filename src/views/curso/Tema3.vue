@@ -62,91 +62,151 @@
 
     h2.h3#t_3_2 3.2 Servicios complementarios
 
-    .row.align-items-stretch
-      .col-12.col-md-4.px-4.py-5(style="background: #42C9EC")
-        img.auto(src="@/assets/curso/tema3/control.png" width="46" height="74")
-        p <strong>El planning nominal.</strong>
-        p Es el más indicado para pequeños establecimientos, en los que resulta posible realizar la reserva y asignación de la habitación en un mismo momento. Es  una planilla en la que se incorporan las fechas del mes y la numeración de las habitaciones, puede ir acompañada de información relativa a sus características, los servicios  y  la ubicación.
-      .col-12.col-md-4.px-4.py-5(style="background: #FFB74D")
-        img.auto(src="@/assets/curso/tema3/control.png" width="46" height="74")
-        p <strong>El planning numérico.</strong>
-        p Su utilización es válida para establecimientos de cualquier tamaño, pero está especialmente pensado para hoteles con mucho movimiento.
-      .col-12.col-md-4.px-4.py-5(style="background: #471E89")
-        img.auto(src="@/assets/curso/tema3/control.png" width="46" height="74")
-        p(style="color: white") <strong>El planning forecast.</strong>
-        p(style="color: white") Se utiliza en hoteles de gran capacidad y notable movimiento de entradas y salidas, generalmente motivado por una estancia media muy baja, de escaso uso en la actualidad, se configura para impresos mensuales.
+    .row.align-items-stretch.my-4
+      .col-12.col-md-7.px-4.py-5(style="background: #FFD494; border-top-left-radius: 20px;")
+        p <strong>Son servicios que el sector hotelero presta a sus clientes, y que se caracterizan por extender la atención a los clientes más allá de la puesta a disposición de una habitación o un inmueble.</strong>
+        p <strong>Es decir, que el cliente puede solicitarlos durante su estancia y el hotel los presta como parte de los servicios.</strong>
+      .col-12.col-md-5.px-4.py-5.servicios-auxiliares.h100
 
     p Se consideran servicios complementarios los siguientes:
 
     .row.g-4.mb-4.pb-4
       .col-12.col-md-6.px-5
-        .row.justify-content-between.mt-5.p-4.bg-azul-claro.h-100
-          .col-12.col-md-3
+        .row.p-4.bg-azul-claro.h-100.rounded
+          .col-12.col-md-4
             img.auto(src="@/assets/curso/tema3/servicios-1.png")
-          .col-12.col-md-9
-            p <strong>Recepcion y atencion permanente</strong>
+          .col-12.col-md-8
+            p.h4 <strong>Recepcion y atencion permanente</strong>
       .col-12.col-md-6.px-5
-        .row.justify-content-between.mt-5.p-4.bg-azul-claro.h-100
-          .col-12.col-md-3
+        .row.p-4.bg-azul-claro.h-100.rounded
+          .col-12.col-md-4
             img.auto(src="@/assets/curso/tema3/servicios-2.png")
-          .col-12.col-md-9
-            p <strong>Limpieza periódica del alojamiento.</strong>
+          .col-12.col-md-8
+            p.h4 <strong>Limpieza periódica del alojamiento.</strong>
       .col-12.col-md-6.px-5
-        .row.justify-content-between.mt-5.p-4.bg-azul-claro.h-100
-          .col-12.col-md-3
+        .row.p-4.bg-azul-claro.h-100.rounded
+          .col-12.col-md-4
             img.auto(src="@/assets/curso/tema3/servicios-3.png")
-          .col-12.col-md-9
-            p <strong>Recepcion y atencion permanente</strong>
+          .col-12.col-md-8
+            p.h4  <strong>Recepcion y atencion permanente</strong>
       .col-12.col-md-6.px-5
-        .row.justify-content-between.mt-5.p-4.bg-azul-claro.h-100
-          .col-12.col-md-3
+        .row.p-4.bg-azul-claro.h-100.rounded
+          .col-12.col-md-4
             img.auto(src="@/assets/curso/tema3/servicios-4.png")
-          .col-12.col-md-9
-            p <strong>Limpieza periódica del alojamiento.</strong>
+          .col-12.col-md-8
+            p.h4  <strong>Limpieza periódica del alojamiento.</strong>
       .col-12.col-md-6.px-5
-        .row.justify-content-between.mt-5.p-4.bg-azul-claro.h-100
-          .col-12.col-md-3
+        .row.p-4.bg-azul-claro.h-100.rounded
+          .col-12.col-md-4
             img.auto(src="@/assets/curso/tema3/servicios-5.png")
-          .col-12.col-md-9
-            p <strong>Cajilla de seguridad.</strong>
+          .col-12.col-md-8
+            p.h4  <strong>Cajilla de seguridad.</strong>
       .col-12.col-md-6.px-5
-        .row.justify-content-between.mt-5.p-4.bg-azul-claro.h-100
-          .col-12.col-md-3
+        .row.p-4.bg-azul-claro.h-100.rounded
+          .col-12.col-md-4
             img.auto(src="@/assets/curso/tema3/servicios-6.png")
-          .col-12.col-md-9
-            p <strong>También se incluye los servicios de restaurante y room services</strong>
+          .col-12.col-md-8
+            p.h4  <strong>También se incluye los servicios de restaurante y room services</strong>
       .col-12.col-md-6.px-5
-        .row.justify-content-between.mt-5.p-4.bg-azul-claro
-          .col-12.col-md-3
+        .row.p-4.bg-azul-claro.h-100.rounded.align-items-center
+          .col-12.col-md-4
             img.auto(src="@/assets/curso/tema3/servicios-7.png")
-          .col-12.col-md-9
-            p <strong>Prestación de servicios adicionales como: lavandería, custodia de maletas, prensa, etc</strong>
+          .col-12.col-md-8
+            p.h4  <strong>Prestación de servicios adicionales como: lavandería, custodia de maletas, prensa, etc</strong>
       .col-12.col-md-6.px-5
-        .row.justify-content-between.mt-5.p-4.bg-azul-claro
-          .col-12.col-md-3
+        .row.p-4.bg-azul-claro.rounded.mb-4
+          .col-12.col-md-4
             img.auto(src="@/assets/curso/tema3/servicios-8.png")
-          .col-12.col-md-9
-            p <strong>Salones de eventos.</strong>
-        .row.justify-content-between.mt-5.p-4.bg-azul-claro
-          .col-12.col-md-3
+          .col-12.col-md-8
+            p.h4  <strong>Salones de eventos.</strong>
+        .row.p-4.bg-azul-claro.rounded
+          .col-12.col-md-4
             img.auto(src="@/assets/curso/tema3/servicios-9.png")
-          .col-12.col-md-9
-            p <strong>Locales comerciales.</strong>
+          .col-12.col-md-8
+            p.h4  <strong>Locales comerciales.</strong>
 
 
     h2.h3#t_3_3 3.3 Convenciones
 
-    p Las convenciones son las reglas o lineamientos simbólicos que se emplean en el diseño cartográfico para evitar malentendidos y confusiones en el momento de mostrar características geográficas o lugares. En los hoteles se trabaja con una gran cantidad de siglas y símbolos como instrumento para conocer el estado de las habitaciones y las tarifas entre otros; para facilitar el trabajo.
+    p Las convenciones son las reglas o lineamientos simbólicos que se emplean en el diseño cartográfico para evitar malentendidos y confusiones en el momento de mostrar características geográficas o lugares. <strong>En los hoteles se trabaja con una gran cantidad de siglas y símbolos como instrumento para conocer el estado de las habitaciones y las tarifas entre otros; para facilitar el trabajo.</strong>
 
     p Se utiliza con símbolos, una letra o un par de letras que indican el estado de las habitaciones.
 
+    .row.g-2.justify-content-between.mb-2
+      .col-auto.bg-azul-claro.py-2.px-4
+        .row.align-items-end
+          .col-auto
+            img.auto(src="@/assets/curso/tema3/cliente2.png")
+          .col-auto
+            p.texto-encerrado <strong>CL o C = cliente</strong>
+      .col-auto.bg-azul-claro.py-2.px-4.rounded
+        .row.align-items-end
+          .col-auto
+            img.auto(src="@/assets/curso/tema3/salida.png")
+          .col-auto
+            p.texto-encerrado <strong>S = salida</strong>
+      .col-auto.bg-azul-claro.py-2.px-4.rounded
+        .row.align-items-end
+          .col-auto
+            img.auto(src="@/assets/curso/tema3/llave-del-cuarto.png")
+          .col-auto
+            p.texto-encerrado <strong>L = libre</strong>
+      .col-auto.bg-azul-claro.py-2.px-4.rounded
+        .row.align-items-end
+          .col-auto
+            img.auto(src="@/assets/curso/tema3/puerta.png")
+          .col-auto
+            p.texto-encerrado <strong>E = entrada</strong>
+    .row.g-2.justify-content-between
+      .col-auto.bg-azul-claro.py-2.px-4
+        .row.align-items-end
+          .col-auto
+            img.auto(src="@/assets/curso/tema3/vip.png")
+          .col-auto
+            p.texto-encerrado <strong>VIP = very important person / people</strong>
+            span (persona muy importante)
+      .col-auto.bg-azul-claro.py-2.px-4.rounded
+        .row.align-items-end
+          .col-auto
+            img.auto(src="@/assets/curso/tema3/obstruido.png")
+          .col-auto
+            p.texto-encerrado <strong>BQ = bloqueada</strong>
+      .col-auto.bg-azul-claro.py-2.px-4.rounded
+        .row.align-items-end
+          .col-auto
+            img.auto(src="@/assets/curso/tema3/camas.png")
+          .col-auto
+            p.texto-encerrado <strong>Cex = cama extra</strong>
+    .row.g-2.justify-content-between
+      .col-auto.bg-azul-claro.py-2.px-4
+        .row.align-items-end
+          .col-auto
+            img.auto(src="@/assets/curso/tema3/revisa.png")
+          .col-auto
+            p.texto-encerrado <strong>R = repaso / revisar</strong>
+      .col-auto.bg-azul-claro.py-2.px-4.rounded
+        .row.align-items-end
+          .col-auto
+            img.auto(src="@/assets/curso/tema3/do-not-disturb.png")
+          .col-auto
+            p.texto-encerrado <strong>DND = do not disturb</strong>
+      .col-auto.bg-azul-claro.py-2.px-4.rounded
+        .row.align-items-end
+          .col-auto
+            img.auto(src="@/assets/curso/tema3/cuna.png")
+          .col-auto
+            p.texto-encerrado <strong>CU = cuna</strong>
+
     p Estas siglas no son universales, aunque sí se declinan por la simplicidad y la no-duplicación de siglas.
 
-    .custom-alert.container.tarjeta.tarjeta__template--verde.px-3.pt-3.pb-2.px-sm-5.my-5
-      .float-image.d-none.d-lg-block
-        img.auto(src="@/assets/curso/tema3/importante.png")
-      .ms-lg-3.ps-lg-5
-        p.ms-lg-5 <strong>En los hoteles se trabaja con una gran cantidad de siglas y símbolos como instrumento para conocer el estado de las habitaciones y las tarifas entre otros.</strong>
+    .tarjeta.bg-naranja-claro.p-3.mb-5.my-5
+      .row.justify-content-around.align-items-center
+        .col
+          .row.justify-content-between.align-items-center
+            .col-sm-auto.px-5
+              img.auto(src="@/assets/curso/tema3/importante.png")
+            .col.mb-3.mb-sm-0.px-5
+              .h4.mb-0 <strong>En los hoteles se trabaja con una gran cantidad de siglas y símbolos como instrumento para conocer el estado de las habitaciones y las tarifas entre otros</strong>
 
 </template>
 
@@ -165,26 +225,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.tarjeta-bg-over
-  &:hover
-    background-color: $color-sistema-g
-
-table.table, tr, td
-  border: none
-  color: $color-sistema-a
-
-table.table
-  caption
-    color: $color-sistema-a
-
-  tr
-    background-color: $color-sistema-e
-    td:first-child
-      width: 25%
-      text-align: center
-      font-weight: bold
-      border-right: 2px solid $color-sistema-a
-
-  tr:nth-child(even)
-    background-color: $color-sistema-g
+.servicios-auxiliares
+  background-image: url(../../assets/curso/tema3/young-hotel-maid-setting-up-pillow-on-bed.png)
 </style>
