@@ -25,9 +25,9 @@
     p <strong>De los establecimientos hoteleros o de hospedaje</strong>
 
     .row.align-items-stretch
-      .col-12.col-md-6.px-5.py-5(style="background: #DAEBC8")
+      .col-12.col-md-6.px-4.py-5(style="background: #DAEBC8; border-top-left-radius: 15px; border-bottom-left-radius: 15px")
         p <strong>Artículo 78.</strong><br>De los establecimientos hoteleros o de hospedaje. Se entiende por establecimiento hotelero o de hospedaje, el conjunto de bienes destinados por la persona natural o jurídica a prestar el servicio de alojamiento no permanente inferior a 30 días, con o sin alimentación y servicios básicos y/o complementarios o accesorios de alojamiento, mediante contrato de hospedaje.
-      .col-12.col-md-6.px-4.py-5(style="background: #DAEBC8")
+      .col-12.col-md-6.px-4.py-5(style="background: #A2CC75; border-top-right-radius: 15px; border-bottom-right-radius: 15px")
         p <strong>Artículo 79.</strong><br>Del contrato de hospedaje. El contrato de hospedaje es un contrato de arrendamiento, de carácter comercial y de adhesión, que una empresa dedicada a esta actividad celebra con el propósito principal de prestar alojamiento a otra persona denominada huésped, mediante el pago del precio respectivo día a día, por un plazo inferior a 30 días.
 
     h2.h3#t_2_2 2.2 Características.
@@ -173,6 +173,9 @@
     p Según la Norma sectorial colombiana NTSH006 se clasifican en:
 
     Slider#slider-tema1
+      .row
+        img.auto(src="@/assets/curso/tema2/slide-1.png")
+
       .tarjeta.tarjeta__template--azul-claro.px-5.py-4
           .row.align-items-center.px-lg-5
             .col-12.col-md
