@@ -1,25 +1,146 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(titulo="3. Comunicación")
+  BannerInterno(titulo="3. Habitaciones hoteleras")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
+    p Dentro de la Norma técnica sectorial colombiana NTSH006 se deben considerar los siguientes aspectos en las habitaciones: seguridad, dimensiones en donde se incluye el baño y closet, muebles, conexiones eléctricas, ropa de cama, piso, ventanas, iluminación, baños y sus componentes entre otros ducha, toallas, presión del agua
+
     figure.mb-5
-      img(src="@/assets/curso/tema3/tema3-main.jpg")
+      img(src="@/assets/curso/tema3/tema3-main.png")
 
-    p La empresa hotelera capta sus ingresos en los productos y servicios que genera para vender, la venta de habitaciones es la razón de ser del hotel, así como también  el área que  mayores ganancias genera.
+    h2.h3#t_3_1 3.1 Tipo de habitaciones y acomodación:
 
-    p Una reservación es un acuerdo, verbal o escrito, que se establece entre el hotel y una persona natural o jurídica, donde el primero se compromete a realizar una prestación de alojamiento y demás servicios en una fecha preestablecida y por un periodo determinado; y el segundo, a recibir la prestación del servicio en la fecha reservada y  a realizar el pago del servicio, con consecuencia de penalización por cancelación.
+    .row.py-5.mb-4.g-4.justify-content-md-left
+      .col-12.col-md-6.col-lg-4
+        .p-4.bg-azul-claro.h-100
+          img.auto(src="@/assets/curso/tema3/individual.png")
+          p <strong>Individual:</strong> una habitación asignada a una persona. Las medidas de las camas individuales pueden ser: 90 centímetros de ancho por 190 de largo. Acomodación: puede tener una o más camas pero solo es ocupada por una persona.
+      .col-12.col-md-6.col-lg-4
+        .p-4.bg-azul-claro.h-100
+          img.auto(src="@/assets/curso/tema3/doble.png")
+          p <strong>Doble:</strong> una habitación asignada a dos personas. Las medidas de las camas dobles pueden ser: 140 centímetros de ancho por 190 de largo. Acomodación: puede tener una o más camas.
+      .col-12.col-md-6.col-lg-4
+        .p-4.bg-azul-claro.h-100
+          img.auto(src="@/assets/curso/tema3/triple.png")
+          p <strong>Triple:</strong> una habitación asignada a tres personas. Acomodación: puede tener dos o más camas.
 
-    h2.h3#t_3_1 3.1 Objetivo de la gestión de reservas
-    figure.my-5
-      img(src="@/assets/curso/tema3/video.jpg")
+      .col-12.col-md-6.col-lg-4
+        .p-4.bg-azul-claro.h-100
+          img.auto(src="@/assets/curso/tema3/queen.png")
+          p <strong>Queen:</strong> una habitación con una cama de matrimonio. Las medidas de las camas Queen Size son 1,5 metros de ancho por 2 metros de largo. Acomodación: puede ser ocupado por una o más personas.
+      .col-12.col-md-6.col-lg-4
+        .p-4.bg-azul-claro.h-100
+          img.auto(src="@/assets/curso/tema3/king.png")
+          p <strong>King:</strong> una habitación con una cama king-size. las medidas de las camas King Size son de 2 metros de ancho x 2 metros de largo. Acomodación: puede ser ocupado por una o más personas.
+      .col-12.col-md-6.col-lg-4
+        .p-4.bg-azul-claro.h-100
+          img.auto(src="@/assets/curso/tema3/twin.png")
+          p <strong>Twin:</strong> una habitación con dos camas iguales. Acomodación: puede ser ocupado por una o más personas.
+
+      .col-12.col-md-6.col-lg-4
+        .p-4.bg-azul-claro.h-100
+          img.auto(src="@/assets/curso/tema3/suite.png")
+          p <strong>Suite:</strong> un salón o sala de estar conectada a uno o más dormitorios. Acomodación: de acuerdo al número de camas puede ser asignada a una persona o más.
+      .col-12.col-md-6.col-lg-4
+        .p-4.bg-azul-claro.h-100
+          img.auto(src="@/assets/curso/tema3/junior_suite.png")
+          p <strong>Junior Suite:</strong> una habitación individual con una cama y una sala de estar. A veces, el área para dormir está en un dormitorio separado del salón o la sala de estar. <strong>Acomodación:</strong> por su tamaño generalmente puede ser ocupada por dos máximo tres personas.
+      .col-12.col-md-6.col-lg-4
+        .p-4.bg-azul-claro
+          img.auto(src="@/assets/curso/tema3/habitaciones_comunicadas.png")
+          p <strong>Habitaciones comunicadas:</strong> habitaciones con puertas de entrada individuales desde el exterior y una puerta de conexión entre ellas. Los huéspedes pueden moverse entre habitaciones sin pasar por el pasillo.
+
+      .col-12.col-md-6.col-lg-4
+        .p-4.bg-azul-claro
+          img.auto(src="@/assets/curso/tema3/habitaciones_contiguas.png")
+          p <strong>Habitaciones contiguas:</strong> habitaciones con una pared común, pero sin puerta de conexión.
+      .col-12.col-md-6.col-lg-4
+        .p-4.bg-azul-claro
+          img.auto(src="@/assets/curso/tema3/habitaciones_adyacentes.png")
+          p <strong>Habitaciones adyacentes:</strong> habitaciones cercanas, tal vez al otro lado del pasillo.
+
+
+    h2.h3#t_3_2 3.2 Servicios complementarios
+
+
+    p Se consideran servicios complementarios los siguientes:
+
+    .row.g-4.mb-4.pb-4
+      .col-12.col-md-6.px-5
+        .row.justify-content-between.mt-5.p-4.bg-azul-claro.h-100
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/servicios-1.png")
+          .col-12.col-md-9
+            p <strong>Recepcion y atencion permanente</strong>
+      .col-12.col-md-6.px-5
+        .row.justify-content-between.mt-5.p-4.bg-azul-claro.h-100
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/servicios-2.png")
+          .col-12.col-md-9
+            p <strong>Limpieza periódica del alojamiento.</strong>
+      .col-12.col-md-6.px-5
+        .row.justify-content-between.mt-5.p-4.bg-azul-claro.h-100
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/servicios-3.png")
+          .col-12.col-md-9
+            p <strong>Recepcion y atencion permanente</strong>
+      .col-12.col-md-6.px-5
+        .row.justify-content-between.mt-5.p-4.bg-azul-claro.h-100
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/servicios-4.png")
+          .col-12.col-md-9
+            p <strong>Limpieza periódica del alojamiento.</strong>
+      .col-12.col-md-6.px-5
+        .row.justify-content-between.mt-5.p-4.bg-azul-claro.h-100
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/servicios-5.png")
+          .col-12.col-md-9
+            p <strong>Cajilla de seguridad.</strong>
+      .col-12.col-md-6.px-5
+        .row.justify-content-between.mt-5.p-4.bg-azul-claro.h-100
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/servicios-6.png")
+          .col-12.col-md-9
+            p <strong>También se incluye los servicios de restaurante y room services</strong>
+      .col-12.col-md-6.px-5
+        .row.justify-content-between.mt-5.p-4.bg-azul-claro
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/servicios-7.png")
+          .col-12.col-md-9
+            p <strong>Prestación de servicios adicionales como: lavandería, custodia de maletas, prensa, etc</strong>
+      .col-12.col-md-6.px-5
+        .row.justify-content-between.mt-5.p-4.bg-azul-claro
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/servicios-8.png")
+          .col-12.col-md-9
+            p <strong>Salones de eventos.</strong>
+        .row.justify-content-between.mt-5.p-4.bg-azul-claro
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/servicios-9.png")
+          .col-12.col-md-9
+            p <strong>Locales comerciales.</strong>
+
+
+    h2.h3#t_3_3 3.3 Convenciones
+
+    p Las convenciones son las reglas o lineamientos simbólicos que se emplean en el diseño cartográfico para evitar malentendidos y confusiones en el momento de mostrar características geográficas o lugares. En los hoteles se trabaja con una gran cantidad de siglas y símbolos como instrumento para conocer el estado de las habitaciones y las tarifas entre otros; para facilitar el trabajo.
+
+    p Se utiliza con símbolos, una letra o un par de letras que indican el estado de las habitaciones.
+
+    p Estas siglas no son universales, aunque sí se declinan por la simplicidad y la no-duplicación de siglas.
+
+    .custom-alert.container.tarjeta.tarjeta__template--verde.px-3.pt-3.pb-2.px-sm-5.my-5
+      .float-image.d-none.d-lg-block
+        img.auto(src="@/assets/curso/tema3/importante.png")
+      .ms-lg-3.ps-lg-5
+        p.ms-lg-5 <strong>En los hoteles se trabaja con una gran cantidad de siglas y símbolos como instrumento para conocer el estado de las habitaciones y las tarifas entre otros.</strong>
 
     .row.justify-content-between.align-items-end
       .col-12.col-md-5
         blockquote.fs-3.fw-light(style="background-color: transparent") La gestión de reservas tiene como objetivo <span class="fw-normal">llevar un control permanente y actualizado de la ocupación del establecimiento hotelero</span>, teniendo en cuenta las entradas del día, habitaciones ocupadas, de salidas, cancelaciones de reservas, clientes no show, entre otros.
       .col-12.col-md-7
         .tarjeta.tarjeta__template--azul-claro.p-5
-          p Requiere de acciones que permitan promover la venta  de habitaciones y conocer el comportamiento de la ocupación en el transcurso de un año, mediante  la elaboración de gráficas de ocupación mensual, <strong>con el fin de implementar las estrategias de ventas en determinados periodos</strong>, para lo cual es necesario  el manejo de un sistema de reservaciones y el conocimiento del servicio, la disponibilidad, tarifas, paquetes y promociones; también depende de la habilidad del agente de reservas, para lograr atraer al cliente y efectuar la venta. 
+          p Requiere de acciones que permitan promover la venta  de habitaciones y conocer el comportamiento de la ocupación en el transcurso de un año, mediante  la elaboración de gráficas de ocupación mensual, <strong>con el fin de implementar las estrategias de ventas en determinados periodos</strong>, para lo cual es necesario  el manejo de un sistema de reservaciones y el conocimiento del servicio, la disponibilidad, tarifas, paquetes y promociones; también depende de la habilidad del agente de reservas, para lograr atraer al cliente y efectuar la venta.
 
     h2.h3#t_3_2.my-5.pt-4 3.2 Componentes
     p Un PNR (Passenger Name Record) contiene los detalles de la reserva del pasajero o huésped, en relación con el viaje o permanencia en el hotel y sus <strong>componentes se denominan elementos, estos pueden ser obligatorios, OMC y tarifa.</strong>
@@ -86,7 +207,7 @@
 
     h2.h3#t_3_5 3.5 Convenciones de estados de habitaciones
 
-    p.h4.fw-light En los hoteles el estado de habitaciones se guía por códigos o abreviaturas que <span class="fw-normal">facilitan la elaboración de reportes de estado de habitaciones</span>, algunos hoteles utilizan convenciones en inglés y otros en español: 
+    p.h4.fw-light En los hoteles el estado de habitaciones se guía por códigos o abreviaturas que <span class="fw-normal">facilitan la elaboración de reportes de estado de habitaciones</span>, algunos hoteles utilizan convenciones en inglés y otros en español:
 
     .row
       .col-12.col-md-4
@@ -149,7 +270,7 @@
         p Las reservas llevan asociados una serie de procedimientos en los que se <strong>basa su recepción, aceptación y confirmación y en algunos casos su modificación o cancelación.</strong>
 
         p El procedimiento para atender las reservaciones que lleguen por los diferentes medios de comunicación: plataformas de reservas, reservas para grupos, agencias de viajes, manejar dinero proveniente de depósitos para garantizar las reservas; teniendo en cuenta los siguientes ítems:
-        
+
       .col-12.col-md-5.d-flex.flex-column
         .d-flex.align-items-center.my-2
           img.auto(src="@/assets/curso/tema3/reserva1.png" width="92" height="92")
