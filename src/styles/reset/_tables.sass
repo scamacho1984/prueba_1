@@ -1,0 +1,35 @@
+table
+  border-collapse: collapse
+  border-spacing: 0
+  table-layout: fixed
+  width: 100%
+
+  caption
+    color: $color-sistema-b
+    font-size: 0.8em
+    background-color: transparentize($color-sistema-f, 0.6)
+    padding: $base-spacing /4 $base-spacing /2
+    border: $base-border
+    border-top: none
+
+tr, td, th
+  vertical-align: middle
+
+td, th
+  border: $base-border
+  padding: $small-spacing
+
+thead
+  border-top: 5px solid $color-sistema-a
+  color: $table-header-color
+  background-color: $table-header-bg-color
+
+th
+  border-color: $table-header-bg-color
+  font-weight: $base-bold-font-weight
+  text-align: left
+
+td
+
+tfoot
+  background-color: transparentize($color-sistema-f, 0.6)

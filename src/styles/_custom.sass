@@ -1,0 +1,169 @@
+/*
+ Componentes
+ */
+
+@mixin define-tarjeta-bg($bg-name ,$bg-color)
+  .tarjeta
+    &--#{$bg-name}
+      @extend .tarjeta
+      background-color: $bg-color
+
+@include define-tarjeta-bg("color-sistema-a" ,$color-sistema-a) // Azul oscuro
+@include define-tarjeta-bg("color-curso-g" ,$color-curso-g) // Amarillo claro
+@include define-tarjeta-bg("color-curso-h" ,$color-curso-h) // Amarillo pollito
+@include define-tarjeta-bg("color-curso-i", $color-curso-i) // Naranja claro
+@include define-tarjeta-bg("color-curso-j", $color-curso-j) // Naranja mas claro
+@include define-tarjeta-bg("color-curso-l", $color-curso-l) // Rosado
+@include define-tarjeta-bg("color-curso-m", $color-curso-m)
+@include define-tarjeta-bg("color-curso-o", $color-curso-o)
+
+@mixin define-boton-bg($bg-name ,$bg-color, $bg-child)
+  .boton
+    &--#{$bg-name}
+      @extend .boton
+      background-color: $bg-color
+      color: $white
+
+      span, i
+        color: $bg-child
+
+@include define-boton-bg("color-sistema-a" ,$color-sistema-a, $white) // Azul oscuro
+
+@mixin define-background($bg-name, $bg-color)
+  .bg-#{$bg-name}
+    background-color: $bg-color
+
+@include define-background("azul-claro", $color-sistema-g)
+@include define-background("color-sistema-g", $color-sistema-g)
+@include define-background("color-curso-g", $color-curso-g)
+@include define-background("color-curso-h", $color-curso-h)
+@include define-background("color-curso-i" , $color-curso-i)
+@include define-background("color-curso-j" , $color-curso-j)
+@include define-background("color-curso-m" , $color-curso-m)
+@include define-background("color-curso-n" , $color-curso-n)
+@include define-background("color-curso-o" , $color-curso-o)
+
+.custom-alert
+  position: relative
+
+  .float-image
+    position: absolute
+    top: -15px
+    left: 2em
+
+blockquote
+  background-color: $color-curso-f
+  display: inline-block
+  border-radius: 15px
+
+/*
+ Temas
+ */
+
+.curso-main-container
+  p
+    margin: 1.2rem auto
+
+  h2, h3, h4, h5
+    margin: 3rem auto 0 auto
+
+  ul:not(.nav)
+    padding-left: 0
+
+  li
+    &:not(.nav-item)
+      background: url("../assets/curso/chevron-right-solid.svg") no-repeat 0 4px
+      background-size: 16px 16px
+      list-style: none
+      margin: .8rem 0
+      padding-left: 1.5rem
+
+  img
+    &.normal
+      margin: 0 auto
+      height: auto
+      width: 50%
+
+    &.auto
+      width: auto
+      height: auto
+
+  .bottom-20
+    bottom: 20%
+
+  .border-radius-20
+    border-radius: 20px
+
+  .border-left-radius-20
+    border-top-left-radius: 20px
+    border-bottom-left-radius: 20px
+
+  .border-top-radius-20
+    border-top-left-radius: 20px
+    border-top-right-radius: 20px
+
+  .tarjeta-numerada
+    margin: 16px 0
+    position: relative
+    &__numero-circulo
+      position: absolute
+      top: 1rem
+
+      span
+        display: inline-block
+        padding: 6px 29px
+        font-size: 3rem
+        font-weight: bold
+        color: $color-sistema-a
+        border-radius: 50%
+    &__contenido
+      margin-left: 35px
+      padding: 1rem 2rem
+      border-radius: 20px
+
+      img
+        margin: 0 auto
+        position: relative
+
+#slider-tema-5
+  .slider
+    &__action-buttons
+      bottom: 15px
+      left: 25%
+      position: absolute
+
+      a
+        background: $color-curso-k
+        display: inline-block
+        font-size: 1.2em
+        margin: 0 4px
+        padding: 3px 10px
+
+@media (max-width: $bp-max-md)
+  #slider-tema-5
+    .slider
+      &__action-buttons
+        bottom: 0
+        left: 0
+
+#slider-tema1
+  .slider
+    &__action-buttons
+      a
+        position: absolute
+        display: inline-block
+        top: 45%
+        padding: 3px 10px
+        border-radius: 50%
+        background: white
+        border: 1px solid rgba(58, 97, 240, 0.3)
+
+        &.prev
+          left: 10px
+
+        &.next
+          right: 10px
+
+.tarjeta
+  &.tarjeta--texto
+    background: $color-curso-p
