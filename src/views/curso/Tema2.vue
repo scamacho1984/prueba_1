@@ -42,93 +42,94 @@
 
     .row
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
+        .p-4
           img.auto(src="@/assets/curso/tema2/hotel (1).png" width="72" height="70")
           p <strong>Planta del edificio</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
+        .p-4
           img.auto(src="@/assets/curso/tema2/piscina.png" width="72" height="70")
           p <strong>Espacios publicos</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
+        .p-4
           img.auto(src="@/assets/curso/tema2/no-molestar.png" width="72" height="70")
           p <strong>Habitaciones</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
+        .p-4
           img.auto(src="@/assets/curso/tema2/cuchilleria.png" width="72" height="70")
           p <strong>Restaurantes y comedores</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
+        .p-4
           img.auto(src="@/assets/curso/tema2/mucama.png" width="72" height="70")
           p <strong>Servicios generales</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
+        .p-4
           img.auto(src="@/assets/curso/tema2/articulos-de-aseo.png" width="72" height="70")
           p <strong>Reserva de agua para todo el establecimiento</strong>
 
     p <strong>Factores del servicio:</strong>
+    .row
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/hotel (1).png" width="72" height="70")
+        .p-4
+          img.auto(src="@/assets/curso/tema2/playa.png" width="72" height="70")
           p <strong>Espacios publicos</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/piscina.png" width="72" height="70")
+        .p-4
+          img.auto(src="@/assets/curso/tema2/cama.png" width="72" height="70")
           p <strong>Habitaciones</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/no-molestar.png" width="72" height="70")
+        .p-4
+          img.auto(src="@/assets/curso/tema2/banera (2).png" width="72" height="70")
           p <strong>Baños de habitaciones</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/cuchilleria.png" width="72" height="70")
+        .p-4
+          img.auto(src="@/assets/curso/tema2/desayuno.png" width="72" height="70")
           p <strong>Restaurantes y comedores</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/mucama.png" width="72" height="70")
+        .p-4
+          img.auto(src="@/assets/curso/tema2/taxi.png" width="72" height="70")
           p <strong>Servicios complementarios</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/articulos-de-aseo.png" width="72" height="70")
+        .p-4
+          img.auto(src="@/assets/curso/tema2/servicio.png" width="72" height="70")
           p <strong>Servicio al cliente</strong>
 
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/hotel (1).png" width="72" height="70")
-          p <strong>Planta del edificio</strong>
+        .p-4
+          img.auto(src="@/assets/curso/tema2/hotel (2).png" width="72" height="70")
+          p <strong>Servicio de reservas</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/piscina.png" width="72" height="70")
-          p <strong>Espacios publicos</strong>
+        .p-4
+          img.auto(src="@/assets/curso/tema2/portero (1).png" width="72" height="70")
+          p <strong>Servicio de conserjeria y porteria</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/no-molestar.png" width="72" height="70")
-          p <strong>Habitaciones</strong>
+        .p-4
+          img.auto(src="@/assets/curso/tema2/sensible.png" width="72" height="70")
+          p <strong>Registro y acomodacion</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/cuchilleria.png" width="72" height="70")
-          p <strong>Restaurantes y comedores</strong>
+        .p-4
+          img.auto(src="@/assets/curso/tema2/recepcionista (2).png" width="72" height="70")
+          p <strong>Servicio al cliente en recepcion</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/mucama.png" width="72" height="70")
-          p <strong>Servicios generales</strong>
+        .p-4
+          img.auto(src="@/assets/curso/tema2/pago.png" width="72" height="70")
+          p <strong>Cancelacion de cuenta y salida</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/articulos-de-aseo.png" width="72" height="70")
-          p <strong>Reserva de agua para todo el establecimiento</strong>
+        .p-4
+          img.auto(src="@/assets/curso/tema2/informacion (1).png" width="72" height="70")
+          p <strong>Servicio de telefono</strong>
 
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/hotel (1).png" width="72" height="70")
-          p <strong>Planta del edificio</strong>
+        .p-4
+          img.auto(src="@/assets/curso/tema2/caja-fuerte.png" width="72" height="70")
+          p <strong>Seguridad</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/piscina.png" width="72" height="70")
-          p <strong>Espacios publicos</strong>
+        .p-4
+          img.auto(src="@/assets/curso/tema2/lista.png" width="72" height="70")
+          p <strong>Requisitos del personal</strong>
       .col-12.col-lg-2.d-flex.align-items-stretch
-        .tarjeta.tarjeta-bg-over.p-4
-          img.auto(src="@/assets/curso/tema2/no-molestar.png" width="72" height="70")
-          p <strong>Habitaciones</strong>
+        .p-4
+          img.auto(src="@/assets/curso/tema2/clasificacion.png" width="72" height="70")
+          p <strong>Evaluación del servicio y acciones correctivas</strong>
 
     .custom-alert.container.tarjeta.tarjeta__template--verde.px-3.pt-3.pb-2.px-sm-5.my-5
       .float-image.d-none.d-lg-block
@@ -137,6 +138,34 @@
         p.ms-lg-5 <strong>Los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas para los hoteles en las modalidades 1, 2, 3, 4 y 5.</strong>
 
     p <strong>Los criterios de evaluación.</strong>
+
+    .row
+      .col-12.col-md-6.col-lg-4.d-flex.align-items-stretch
+        .p-4
+          img.auto(src="@/assets/curso/tema2/estrella-1.png" width="72" height="70")
+          p <strong>Hoteles de 1 estrella:</strong>
+          p deberán cumplir el 100% de los requisitos definidos en la Norma NTSH006, 178 puntos y los requisitos legales vigentes.
+      .col-12.col-md-6.col-lg-4.d-flex.align-items-stretch
+        .p-4
+          img.auto(src="@/assets/curso/tema2/estrella-2.png" width="72" height="70")
+          p <strong>Hoteles de 2 estrella:</strong>
+          p deberán cumplir el 100% de los requisitos definidos en la Norma NTSH006, 181 puntos y los requisitos legales vigentes.
+      .col-12.col-md-6.col-lg-4.d-flex.align-items-stretch
+        .p-4
+          img.auto(src="@/assets/curso/tema2/estrella-3.png" width="72" height="70")
+          p <strong>Hoteles de 3 estrella:</strong>
+          p deberán cumplir el 80% de los requisitos definidos en la Norma NTSH006, rango 208 - 260 puntos y los requisitos legales vigentes.
+      .col-12.col-md-6.col-lg-4.d-flex.align-items-stretch
+        .p-4
+          img.auto(src="@/assets/curso/tema2/estrella-4.png" width="72" height="70")
+          p <strong>Hoteles de 4 estrella:</strong>
+          p deberán cumplir mínimo con el 85% de los requisitos definidos en la Norma NTSH006, rango 283 - 333 puntos y los requisitos legales vigentes.
+      .col-12.col-md-6.col-lg-4.d-flex.align-items-stretch
+        .p-4
+          img.auto(src="@/assets/curso/tema2/estrella-5.png" width="72" height="70")
+          p <strong>Hoteles de 5 estrella:</strong>
+          p deberán cumplir mínimo con el 95% de los requisitos definidos en la Norma NTSH006, rango 349 - 337 puntos y los requisitos legales vigentes.
+
 
     h3.h3#t_2_3 2.3 Tipología.
 
